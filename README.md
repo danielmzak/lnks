@@ -1,4 +1,15 @@
 forked: https://github.com/hamvocke/lnks
+added support for comments starting with `#` and empty lines
+
+```
+# comment
+
+link 1
+
+# comment
+
+link 2
+```
 
 # lnks
 
