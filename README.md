@@ -1,3 +1,5 @@
+forked: https://github.com/hamvocke/lnks
+
 # lnks
 
 `lnks` allows you to search through and open browser bookmarks on the command line. Use it for yourself or to share important bookmarks with your team.
