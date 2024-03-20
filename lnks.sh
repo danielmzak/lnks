@@ -45,7 +45,7 @@ else
     enter_command="${enter_command}+abort"
 fi
 
-cat "$dir"/*.txt | fzf \
+cat "$dir"/*.txt | sed -e '/^#/d' -e '/^$/d' | fzf \
     --border=rounded \
     --prompt="Search Bookmarks > " \
     --with-nth='1..-2' \
